@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel ="stylesheet" href="style.css">
+        <title>Post Page</title>
+        <script defer src = "MainScript.js"> </script> 
+    </head>
+    <body>
+        <header>
+            <h1 id="headerid">Hello..! Post something for the day....</h1>
+                <nav>
+                    <button class="headericon" onclick="window.location.href='register.html'">Registration</button>
+                    <button class="headericon" onclick="window.location.href='login.html'">Login</button>
+                    <button class="headericon" onclick="window.location.href='post.html'">Post</button>
+                </nav>
+                <hr>
+        </header>
+        <form class="postdetails" id="post">
+            <label for="msg">Enter your Message here...</label><br>
+            <textarea id= "pst" name="msg"></textarea>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+        <footer>
+            <h3><span class="blink">Sample Social Media.co  &copy;</span></h3>
+        </footer>
+    </body>
+</html>

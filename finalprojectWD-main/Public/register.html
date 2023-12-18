@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel ="stylesheet" href="style.css"> 
+        <title>Registration Page</title>
+        <script defer src = "MainScript.js"> </script> 
+    </head>
+    <body>
+        <header>
+            <h1 id="headerid">Welcome to Sample Social media....</h1>
+    
+            <nav>
+                <button class="headericon" onclick="window.location.href='register.html'">Registration</button>
+                <button class="headericon" onclick="window.location.href='login.html'">Login</button>
+                <button class="headericon" onclick="window.location.href='post.html'">Post</button>
+            </nav>
+            <hr>
+        </header>
+        <main>
+            <h4>This is a sample social media application with below specific modules.</h4>
+            <ul>
+                <li>Registration</li>
+                <li>Login in</li>
+                <li>Post</li>
+            </ul>
+            <form class="registerdetails" id="registration">
+                <h4>To maintain a relationship with us please Register here...!</h4>
+                <label for="fname"><b>First Name</b> </label>
+                <input type="text"  id = "username" placeholder="Enter Firstname" name="fname">
+                &nbsp; &nbsp;
+                <label for="lname"><b>Last Name</b></label>
+                <input type="text" id="lname" placeholder="Enter Lastname" name="lname">
+                <br>
+                <label for="email"><b>Email addres</b></label>
+                <input type="text" id = "email" placeholder="Enter email address" name="email">
+                <br>
+                <label for="pswd"><b>Password</b></label>
+                <input type="password" id =  "password" placeholder="Enter Password" name="pswd">
+                <br>
+                <button type="submit"><b>Sign Up</b></button>
+                <p><span class="logincolor">If already have an account, please do <a href="login.html"><span class="logincolor"><b>Login</b></span></a> <span style='font-size:22px;'>&#128072;</span> here ...</span>&#x1F60A;</p>
+            </form>
+            <div>
+                <button
+                  style="font-size:20px; display:block; width:fit-content; margin:auto;" 
+                  id="btn-users">Get All Users</button>
+              </div> 
+        </main>
+        <footer>
+            <h3><span class="blink">Sample Social Media.co  &copy;</span></h3>
+        </footer>
+        
+</html>

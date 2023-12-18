@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Login Page</title>
+    <link rel ="stylesheet" href="style.css">
+    <script defer src = "MainScript.js"> </script> 
+    </head>
+    <body>
+        <header>
+            <h1 id="headerid">Welcome to Login Page</h1>
+            <p>This is a sample social media application Login Page. Your esteemed partners are waiting for your responses. Please provide your credentials below and njoy your conversations.</p>
+            <nav>
+                <button class="headericon" onclick="window.location.href='register.html'">Registration</button>
+                <button class="headericon" onclick="window.location.href='login.html'">Login</button>
+                <button class="headericon" onclick="window.location.href='post.html'">Post</button>
+                
+            </nav>
+            <hr>
+        </header>
+        <main>
+            <form class="logindetails" id="login">
+                
+                <label for="uname"><b>Username</b></label>
+                <input type="text" id = "username" placeholder="Enter Username" name="uname">
+                <br>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" id = "password" placeholder="Enter Password" name="psw">
+                <br>
+                <button type="submit"><b>Login</b></button>
+                <br>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </form>
+        </main>
+        <footer>
+            <h3><span class="blink">Sample Social Media.co  &copy;</span></h3>
+        </footer>
+    </body>
+</html>
